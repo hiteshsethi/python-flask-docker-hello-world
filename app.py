@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Hello from dockerfile - push 2"
+    return "Hello from dockerfile - push 3"
 
 
 if __name__ == "__main__":
